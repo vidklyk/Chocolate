@@ -90,10 +90,13 @@ body {
 .hero-scr {
   color: #fff;
   background-image: url(/images/chocolate-covered-cocoa-powder.jpg);
+  background-size: cover;
   border-radius: 30px;
 }
+.hero-scr a {
+  color: #fff;
+}
 .hero-scr .container {
-  display: flexbox;
 }
 .hero-text {
   padding: 381px 442px 32px 72px;
@@ -106,11 +109,33 @@ body {
   letter-spacing: -0.0525rem;
 }
 .hero-btn {
-  padding: ;
+  padding-left: 72px;
+  padding-bottom: 40px;
+  display: flex;
+}
+.main-btn {
+  display: flex;
+  gap: 14px;
+}
+.nav-hero-btn {
+  display: flex;
+  padding-left: 585px;
+  align-items: center;
+  gap: 14px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.42px;
+}
+.hero-btn a {
+}
+.buy-btn {
   color: #fff;
   display: flex;
   padding: 14px 40px;
-  align-items: flex-start;
   border-radius: 100px;
   background: #fd9222;
   border: none;
@@ -120,7 +145,20 @@ body {
   font-weight: 600;
   line-height: normal;
 }
-.main-scr a {
+.made-btn {
+  border-radius: 100px;
+  border: 1px solid #fff;
+  display: flex;
+  padding: 14px 40px;
+  align-items: flex-start;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.made .main-scr a {
   color: #fff;
 }
 .benefits-scr {
