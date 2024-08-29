@@ -1,0 +1,140 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111111;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 32px;
+}
+.container .nav-logo {
+  display: flex;
+  align-items: center;
+}
+.img-logo {
+  padding-left: 4px;
+}
+
+.social-list {
+  display: flex;
+  gap: 18px;
+}
+.container .social-list {
+}
+.page-header ul {
+  padding: 0;
+  margin: 0;
+}
+.page-header .menu {
+  display: flex;
+}
+.header-list-menu {
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.header-list-menu a {
+  color: #111111;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1rem; /* 114.286% */
+  letter-spacing: -0.0175rem;
+}
+
+.nav-logo {
+  color: #111111;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25rem; /* 111.111% */
+  letter-spacing: -0.03375rem;
+  margin-right: 447px;
+  align-items: baseline;
+}
+.italic-style-logo {
+  color: #111;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.25rem; /* 111.111% */
+  letter-spacing: -0.03375rem;
+}
+.main-scr {
+}
+.main-text {
+}
+.benefits-scr {
+}
+.benefits-list {
+}
+.benefits-title-text {
+}
+.benefits-text {
+}
+.taste-scr {
+}
+.taste-text-block {
+}
+.taste-title-text {
+}
+.orange-text {
+  color: #fd9222;
+}
+.taste-main-text {
+}
+.taste-img-block {
+}
+.taste-cards {
+}
+.taste-card-text {
+}
+.taste-card {
+}
+.made-scr {
+}
+.made-title-text {
+}
+.made-list-text {
+}
+.made-text {
+}
+.love-scr {
+}
+.love-title-text {
+}
+.love-cards {
+}
+.footer-scr {
+}
+.footer-title-text {
+}
+.contacts-list {
+}
