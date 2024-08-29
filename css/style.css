@@ -87,9 +87,41 @@ body {
   line-height: 1.25rem; /* 111.111% */
   letter-spacing: -0.03375rem;
 }
-.main-scr {
+.hero-scr {
+  color: #fff;
+  background-image: url(/images/chocolate-covered-cocoa-powder.jpg);
+  border-radius: 30px;
 }
-.main-text {
+.hero-scr .container {
+  display: flexbox;
+}
+.hero-text {
+  padding: 381px 442px 32px 72px;
+  max-width: 494px;
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.125rem; /* 121.429% */
+  letter-spacing: -0.0525rem;
+}
+.hero-btn {
+  padding: ;
+  color: #fff;
+  display: flex;
+  padding: 14px 40px;
+  align-items: flex-start;
+  border-radius: 100px;
+  background: #fd9222;
+  border: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+}
+.main-scr a {
+  color: #fff;
 }
 .benefits-scr {
 }
