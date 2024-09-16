@@ -9,7 +9,7 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
     <meta charset="UTF-8" />
@@ -30,53 +30,53 @@
               width="24"
               height="24"
           /></a>
-          <ul class="header-list-menu">
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>
-              <a href="">How it’s made?</a>
-            </li>
-            <li>
-              <a href="">Chocolate is loved</a>
-            </li>
-          </ul>
+          <div class="menu-container">
+            <ul class="header-list-menu">
+              <li>
+                <a class="menu-link" href="">Home</a>
+              </li>
+              <li>
+                <a class="menu-link" href="">How it’s made?</a>
+              </li>
+              <li>
+                <a class="menu-link" href="">Chocolate is loved</a>
+              </li>
+            </ul>
+            <ul class="social-list">
+              <li>
+                <a href="" target="_blank" rel="nopener norefferer">
+                  <img
+                    src="./images/instagram.svg"
+                    alt="insta"
+                    width="24"
+                    height="24"
+                /></a>
+              </li>
+              <li>
+                <a href="" target="_blank" rel="nopener norefferer"
+                  ><img
+                    src="./images/twitter.svg"
+                    alt="twit"
+                    width="24"
+                    height="24"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </nav>
-        <ul class="social-list">
-          <li>
-            <a href="" target="_blank" rel="nopener norefferer">
-              <img
-                src="./images/instagram.svg"
-                alt="insta"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-          <li>
-            <a href="" target="_blank" rel="nopener norefferer"
-              ><img
-                src="./images/twitter.svg"
-                alt="twit"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-        </ul>
       </div>
     </header>
     <main>
       <!-- HERO SECTION -->
       <section class="hero-scr">
-        <div class="container">
+        <div class="container hero-container">
           <h1 class="hero-text">
             Treat yourself or a loved one to our finest ingredients for a moment
             of pure delight!
           </h1>
           <div class="hero-btn">
-            <div class="main-btn">
-              <button class="buy-btn" type="button">Buy now</button>
-              <a class="made-btn" href="#Made">How it's made</a>
-            </div>
+            <button class="buy-btn" type="button">Buy now</button>
+            <a class="made-btn" href="#Made">How it's made</a>
             <div class="nav-hero-btn">
               <a href="#Benefits">scroll down</a>
               <img
@@ -90,59 +90,65 @@
         </div>
       </section>
       <!-- BENEFITS SECTION -->
-      <section class="benefits-scr">
-        <ul>
-          <li class="benefits-list">
-            <img
-              src="./images/chocolate.svg"
-              alt="chocolate logo"
-              width="62"
-              height="62"
-            />
-            <h3 class="benefits-title-text">Unsurpassed taste</h3>
-            <p class="benefits-text">
-              Crafted with the finest quality cocoa beans and a dedication to
-              perfection, each bite is a decadent experience that simply cannot
-              be matched. Savor the richness and complexity of our Unsurpassed
-              Taste and discover a new level of chocolate bliss.
-            </p>
-          </li>
-          <li class="benefits-list">
-            <img
-              src="./images/coin.svg"
-              alt="coin logo"
-              width="62"
-              height="62"
-            />
-            <h3 class="benefits-title-text">Affordable price</h3>
-            <p class="benefits-text">
-              Indulge in high-quality chocolate without breaking the bank with
-              Simply Chocolate's selection of affordable treats. Enjoy
-              mouth-watering truffles and velvety chocolate bars without
-              sacrificing taste or quality. Browse our selection and indulge in
-              affordable luxury today.
-            </p>
-          </li>
-          <li class="benefits-list">
-            <img
-              src="./images/spoon.svg"
-              alt="spoon logo"
-              width="62"
-              height="62"
-            />
-            <h3 class="benefits-title-text">Own production</h3>
-            <p class="benefits-text">
-              We take pride in our own production process, ensuring that every
-              step is carefully crafted to perfection. From selecting the finest
-              ingredients to handcrafting each piece, our attention to detail is
-              evident in every bite.
-            </p>
-          </li>
-        </ul>
+      <section class="benefits-scr section-paddings">
+        <div class="container benefits-container">
+          <h2 class="visually-hidden">Our benefits</h2>
+          <ul class="benefits-list">
+            <li class="benefits-list-item">
+              <img
+                class="benefits-list-img"
+                src="./images/chocolate.svg"
+                alt="chocolate logo"
+                width="62"
+                height="62"
+              />
+              <h3 class="benefits-title-text">Unsurpassed taste</h3>
+              <p class="benefits-text">
+                Crafted with the finest quality cocoa beans and a dedication to
+                perfection, each bite is a decadent experience that simply
+                cannot be matched. Savor the richness and complexity of our
+                Unsurpassed Taste and discover a new level of chocolate bliss.
+              </p>
+            </li>
+            <li class="benefits-list-item">
+              <img
+                class="benefits-list-img"
+                src="./images/coin.svg"
+                alt="coin logo"
+                width="62"
+                height="62"
+              />
+              <h3 class="benefits-title-text">Affordable price</h3>
+              <p class="benefits-text">
+                Indulge in high-quality chocolate without breaking the bank with
+                Simply Chocolate's selection of affordable treats. Enjoy
+                mouth-watering truffles and velvety chocolate bars without
+                sacrificing taste or quality. Browse our selection and indulge
+                in affordable luxury today.
+              </p>
+            </li>
+            <li class="benefits-list-item">
+              <img
+                class="benefits-list-img"
+                src="./images/spoon.svg"
+                alt="spoon logo"
+                width="62"
+                height="62"
+              />
+              <h3 class="benefits-title-text">Own production</h3>
+              <p class="benefits-text">
+                We take pride in our own production process, ensuring that every
+                step is carefully crafted to perfection. From selecting the
+                finest ingredients to handcrafting each piece, our attention to
+                detail is evident in every bite.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- TASTE SECTION -->
       <section class="taste-scr">
-        <div class="taste-text-block">
+        <div class="container taste-text-block">
           <h2 class="taste-title-text">
             IT ALL ADDS UP TO ONE EXCEPTIONAL
             <span class="orange-text">TASTE</span> SENSATION
@@ -177,7 +183,7 @@
       </section>
       <!-- MADE SECTION -->
       <section class="made-scr">
-        <div>
+        <div class="container made-scr">
           <h2 class="made-title-text">HOW IT’S MADE?</h2>
         </div>
         <div>
@@ -220,7 +226,7 @@
       </section>
       <!-- LOVE SECTION -->
       <section class="love-scr">
-        <div>
+        <div class="container love-scr">
           <h2 class="love-title-text">
             <span class="orange-text">CHOCOLATE</span> IS LOVED
           </h2>
@@ -259,6 +265,7 @@
     </main>
     <!-- FOOTER SECTION -->
     <footer class="footer-scr">
+      <div class="container footer-scr"></div>
       <h2 class="footer-title-text">
         <span class="orange-text">Chocolate</span> a delicious cure for a bad
         day
